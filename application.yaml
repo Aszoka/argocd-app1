@@ -7,10 +7,10 @@ spec:
   project: default
 
   source:
-    repoUrl: https://github.com/Aszoka/argocd-app1.git
+    repoURL: https://github.com/Aszoka/argocd-app1.git
     targetRevision: HEAD
     path: dev
-  destination:
+  destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
 
