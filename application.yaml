@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoUrl: https://github.com/Aszoka/argocd-app1
+    repoUrl: https://github.com/Aszoka/argocd-app1.git
     targetRevision: HEAD
     path: dev
   destination:
